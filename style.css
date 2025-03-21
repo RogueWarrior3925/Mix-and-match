@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('Dinosaur.ttf') format('truetype');
+}
+
 body {
-  font-family: 'Courier New', monospace;
+    font-family: 'Myfont', sans-serif; /* Ensure the font-family name matches */
     background-color: #E0F7FA;
     color: #333;
     margin: 0;
