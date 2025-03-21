@@ -45,3 +45,20 @@ footer {
     padding: 20px;
     background-color: #FFCC80;
 }
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode header, .dark-mode footer {
+    background-color: #1f1f1f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    img { 
+        width: 100%; 
+    }
+}
