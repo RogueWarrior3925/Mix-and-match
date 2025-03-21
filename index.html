@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dino Coaster Adventure</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <!-- Prompt for the site -->
-    <!-- Make a slick site about dinosaurs and rollercoasters. -->
+    <!-- Anvay Purnaye - 3/21/25 - Make a slick site about dinosaurs and rollercoasters -->
 
 </head>
 <body>
@@ -33,6 +32,22 @@
 <footer>
     <p>&copy; 2023 Dino Coaster Adventure. All rights reserved.</p>
 </footer>
+<button onclick="scrollToTop()">Back to Top</button>
+    
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    <button id="theme-toggle">Toggle Dark Mode</button>
 
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+    
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
